@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кофейня "Аромат" — Искусство кофе в каждой чашке</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Перейти к основному содержанию</a>
+    <header>
+        <nav aria-label="Основная навигация">
+            <div class="logo">
+                <div class="logo-icon" aria-hidden="true">☕</div>
+                <span>Аромат</span>
+            </div>
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#story">История</a></li>
+                    <li><a href="#menu">Меню</a></li>
+                    <li><a href="#process">Процесс</a></li>
+                    <li><a href="#testimonials">Отзывы</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <a href="tel:+74951234567" class="nav-contact" aria-label="Позвонить нам">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    <span>+7 (495) 123-45-67</span>
+                </a>
+                <a href="#contact" class="nav-cta" aria-label="Забронировать столик">Бронировать</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Искусство кофе<br>в каждой чашке</h1>
+            <p class="hero-subtitle">Место, где традиции встречаются с современностью</p>
+            <a href="#menu" class="cta-button">Открыть меню</a>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#story" aria-label="Прокрутить к следующей секции">
+                <span aria-hidden="true">Листайте вниз</span>
+                <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M19 12l-7 7-7-7"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-number" data-count="15">15</div>
+                <div class="stat-label">Сортов кофе</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="1200">1200</div>
+                <div class="stat-label">Чашек в день</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="6">6</div>
+                <div class="stat-label">Лет опыта</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="98">98</div>
+                <div class="stat-label">% довольных гостей</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="story reveal-section">
+        <div class="story-content">
+            <div class="story-text">
+                <span class="section-label">Наша история</span>
+                <h2 class="section-title">Путешествие длиной в тысячу миль начинается с одной чашки</h2>
+                <p class="large-text">История кофейни "Аромат" началась в 2020 году с простой, но смелой идеи — создать место, где каждый сможет прикоснуться к настоящей культуре кофе.</p>
+                <p>Мы объездили десятки плантаций в Эфиопии, Колумбии и Бразилии, чтобы найти лучшие зерна. Каждое утро мы обжариваем их на собственном оборудовании, сохраняя уникальный профиль вкуса.</p>
+                <p>Наша команда бариста прошла обучение у лучших мастеров мира. Мы не просто готовим кофе — мы создаем впечатления.</p>
+                <div class="signature">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&q=80&fm=webp" alt="Основатель" class="signature-photo" width="100" height="100">
+                    <div>
+                        <div class="signature-name">Александр Петров</div>
+                        <div class="signature-title">Основатель и главный бариста</div>
+                    </div>
+                </div>
+            </div>
+            <div class="story-images">
+                <div class="story-image-main">
+                    <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=1200&q=80&fm=webp" alt="Интерьер кофейни" loading="lazy" width="1200" height="800">
+                </div>
+                <div class="story-image-accent">
+                    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&q=80&fm=webp" alt="Кофейные зерна" loading="lazy" width="800" height="600">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="parallax-section">
+        <div class="parallax-content">
+            <h2 class="parallax-text">"Кофе — это искусство, требующее мастерства"</h2>
+        </div>
+    </section>
+
+    <section id="menu" class="menu reveal-section">
+        <div class="menu-header">
+            <span class="section-label">Наше меню</span>
+            <h2 class="section-title">Тщательно отобранные напитки</h2>
+            <p class="section-description">Каждый напиток — результат многолетнего опыта и страсти к совершенству</p>
+        </div>
+
+        <!-- Напитки -->
+        <h3 class="menu-category-title">Кофейные напитки</h3>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=600&q=80&fm=webp" alt="Эспрессо" loading="lazy" width="600" height="600">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Эспрессо</h3>
+                    <p>Классический крепкий кофе из отборных арабики. Интенсивный вкус с нотами темного шоколада.</p>
+                    <div class="menu-item-footer">
+                        <span class="price" aria-label="Цена 150 рублей">150₽</span>
+                        <span class="menu-badge">Популярное</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=600&q=80&fm=webp" alt="Капучино" loading="lazy" width="600" height="600">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Капучино</h3>
+                    <p>Идеальный баланс эспрессо и нежной молочной пенки. Бархатистая текстура и мягкий вкус.</p>
+                    <div class="menu-item-footer">
+                        <span class="price" aria-label="Цена 200 рублей">200₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&q=80&fm=webp" alt="Латте" loading="lazy" width="600" height="600">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Латте</h3>
+                    <p>Мягкий кофе с большим количеством молока. Возможность добавить сиропы на ваш вкус.</p>
+                    <div class="menu-item-footer">
+                        <span class="price" aria-label="Цена 220 рублей">220₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=600&q=80&fm=webp" alt="Айс-кофе" loading="lazy" width="600" height="600">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Колд брю</h3>
+                    <p>Кофе холодной экстракции. 18 часов медленного заваривания для максимальной мягкости.</p>
+                    <div class="menu-item-footer">
+                        <span class="price" aria-label="Цена 280 рублей">280₽</span>
+                        <span class="menu-badge">Новинка</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80&fm=webp" alt="Флэт уайт" loading="lazy" width="600" height="600">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Флэт уайт</h3>
+                    <p>Австралийская классика. Двойной эспрессо с микропенкой. Для истинных ценителей.</p>
+                    <div class="menu-item-footer">
+                        <span class="price" aria-label="Цена 240 рублей">240₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&q=80&fm=webp" alt="Авторский напиток" loading="lazy" width="600" height="600">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Раф кофе</h3>
+                    <p>Нежный напиток со сливками и ванилью. Создан в Москве, любим во всем мире.</p>
+                    <div class="menu-item-footer">
+                        <span class="price" aria-label="Цена 260 рублей">260₽</span>
+                        <span class="menu-badge">Хит сезона</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Десерты -->
+        <h3 class="menu-category-title">Десерты</h3>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80&fm=webp" alt="Чизкейк" loading="lazy" width="600" height="600">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Чизкейк Нью-Йорк</h3>
+                    <p>Классический американский чизкейк на основе сливочного сыра. Нежная текстура и насыщенный вкус.</p>
+                    <div class="menu-item-footer">
+                        <span class="price" aria-label="Цена 280 рублей">280₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600&q=80&fm=webp" alt="Тирамису" loading="lazy" width="600" height="600">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Тирамису</h3>
+                    <p>Итальянский десерт с кофе и маскарпоне. Готовим по традиционному рецепту из печенья савоярди.</p>
+                    <div class="menu-item-footer">
+                        <span class="price" aria-label="Цена 320 рублей">320₽</span>
+                        <span class="menu-badge">Популярное</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=600&q=80&fm=webp" alt="Брауни" loading="lazy" width="600" height="600">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Брауни с орехами</h3>
+                    <p>Шоколадный пирог с хрустящей корочкой и влажной серединкой. Подаём с шариком ванильного мороженого.</p>
+                    <div class="menu-item-footer">
+                        <span class="price" aria-label="Цена 250 рублей">250₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80&fm=webp" alt="Круассан" loading="lazy" width="600" height="600">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Круассан с шоколадом</h3>
+                    <p>Французская выпечка из слоёного теста с бельгийским шоколадом. Свежая выпечка каждое утро.</p>
+                    <div class="menu-item-footer">
+                        <span class="price" aria-label="Цена 180 рублей">180₽</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Завтраки -->
+        <h3 class="menu-category-title">Завтраки</h3>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&q=80&fm=webp" alt="Панкейки" loading="lazy" width="600" height="600">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Панкейки с ягодами</h3>
+                    <p>Пышные американские панкейки со свежими ягодами, кленовым сиропом и взбитыми сливками.</p>
+                    <div class="menu-item-footer">
+                        <span class="price" aria-label="Цена 380 рублей">380₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=600&q=80&fm=webp" alt="Яйца Бенедикт" loading="lazy" width="600" height="600">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Яйца Бенедикт</h3>
+                    <p>Классический английский завтрак: яйца пашот на хрустящих тостах с беконом и соусом холландез.</p>
+                    <div class="menu-item-footer">
+                        <span class="price" aria-label="Цена 420 рублей">420₽</span>
+                        <span class="menu-badge">Популярное</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=600&q=80&fm=webp" alt="Гранола" loading="lazy" width="600" height="600">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Гранола с йогуртом</h3>
+                    <p>Домашняя гранола с орехами, греческий йогурт, свежие фрукты и мёд. Легкий и полезный выбор.</p>
+                    <div class="menu-item-footer">
+                        <span class="price" aria-label="Цена 320 рублей">320₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-image">
+                    <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=600&q=80&fm=webp" alt="Авокадо тост" loading="lazy" width="600" height="600">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Тост с авокадо</h3>
+                    <p>Ржаной хлеб с гуакамоле, яйцом пашот, микрозеленью и семенами чиа. Идеален для здорового старта дня.</p>
+                    <div class="menu-item-footer">
+                        <span class="price" aria-label="Цена 360 рублей">360₽</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-cta">
+            <p class="menu-note">Все напитки можно заказать на растительном молоке без дополнительной платы</p>
+        </div>
+    </section>
+
+    <section id="process" class="process reveal-section">
+        <div class="process-header">
+            <span class="section-label">Как мы работаем</span>
+            <h2 class="section-title">От зерна до чашки</h2>
+        </div>
+        <div class="process-timeline">
+            <div class="timeline-item">
+                <div class="timeline-number">01</div>
+                <div class="timeline-content">
+                    <h3>Отбор зерна</h3>
+                    <p>Работаем напрямую с фермерами в Эфиопии, Колумбии и Бразилии. Выбираем только зерна категории specialty — лучшие 5% мирового урожая.</p>
+                </div>
+                <div class="timeline-image">
+                    <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=600&q=80&fm=webp" alt="Кофейные зерна на плантации" loading="lazy" width="600" height="400">
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-number">02</div>
+                <div class="timeline-content">
+                    <h3>Обжарка</h3>
+                    <p>Обжариваем небольшими партиями на собственном оборудовании. Каждый сорт получает уникальный профиль обжарки, раскрывающий его лучшие качества.</p>
+                </div>
+                <div class="timeline-image">
+                    <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=600&q=80&fm=webp" alt="Процесс обжарки кофе" loading="lazy" width="600" height="400">
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-number">03</div>
+                <div class="timeline-content">
+                    <h3>Приготовление</h3>
+                    <p>Наши бариста прошли обучение у чемпионов мира. Каждый напиток готовится вручную с идеальной точностью — температура, давление, время.</p>
+                </div>
+                <div class="timeline-image">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80&fm=webp" alt="Бариста готовит кофе" loading="lazy" width="600" height="400">
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-number">04</div>
+                <div class="timeline-content">
+                    <h3>Наслаждение</h3>
+                    <p>Результат нашей работы — идеальная чашка кофе, которая подарит вам незабываемые впечатления и зарядит энергией на весь день.</p>
+                </div>
+                <div class="timeline-image">
+                    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600&q=80&fm=webp" alt="Готовый кофе" loading="lazy" width="600" height="400">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials reveal-section">
+        <div class="testimonials-header">
+            <span class="section-label">Отзывы</span>
+            <h2 class="section-title">Что говорят наши гости</h2>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-stars" role="img" aria-label="Рейтинг: 5 из 5 звёзд">
+                    <span aria-hidden="true">★★★★★</span>
+                </div>
+                <p class="testimonial-text">"Лучший кофе в городе! Флэт уайт здесь просто божественный. Бариста знают свое дело на все 100%. Атмосфера уютная, можно работать за ноутбуком."</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&q=80&fm=webp" alt="Анна Соколова" width="100" height="100">
+                    <div>
+                        <div class="author-name">Анна Соколова</div>
+                        <div class="author-title">Постоянный гость</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars" role="img" aria-label="Рейтинг: 5 из 5 звёзд">
+                    <span aria-hidden="true">★★★★★</span>
+                </div>
+                <p class="testimonial-text">"Открыл для себя это место месяц назад и теперь прихожу каждое утро. Эспрессо готовят безупречно. Ребята, вы молодцы!"</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&q=80&fm=webp" alt="Дмитрий Волков" width="100" height="100">
+                    <div>
+                        <div class="author-name">Дмитрий Волков</div>
+                        <div class="author-title">Любитель эспрессо</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars" role="img" aria-label="Рейтинг: 5 из 5 звёзд">
+                    <span aria-hidden="true">★★★★★</span>
+                </div>
+                <p class="testimonial-text">"Идеальное место для встречи с друзьями. Десерты восхитительны, а колд брю летом — просто спасение. Рекомендую всем!"</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&q=80&fm=webp" alt="Елена Морозова" width="100" height="100">
+                    <div>
+                        <div class="author-name">Елена Морозова</div>
+                        <div class="author-title">Частый гость</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact reveal-section">
+        <div class="contact-header">
+            <span class="section-label">Контакты</span>
+            <h2 class="section-title">Приходите к нам</h2>
+            <p class="section-description">Мы рады видеть вас каждый день</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <div>
+                        <h3>Адрес</h3>
+                        <p>ул. Пушкина, д. 42<br>Москва, 125009</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    <div>
+                        <h3>Телефон</h3>
+                        <p><a href="tel:+74951234567" aria-label="Позвонить по телефону +7 495 123 45 67">+7 (495) 123-45-67</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <div>
+                        <h3>Часы работы</h3>
+                        <p>Понедельник - Пятница: 7:00 - 22:00<br>Суббота - Воскресенье: 8:00 - 23:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-map">
+                <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1200&q=80&fm=webp" alt="Карта расположения" loading="lazy" width="1200" height="800">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-logo">Аромат</h3>
+                <p>Место, где каждая чашка<br>рассказывает историю</p>
+            </div>
+            <div class="footer-section">
+                <h4>Меню</h4>
+                <ul>
+                    <li><a href="#menu">Напитки</a></li>
+                    <li><a href="#menu">Десерты</a></li>
+                    <li><a href="#menu">Завтраки</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>О нас</h4>
+                <ul>
+                    <li><a href="#story">Наша история</a></li>
+                    <li><a href="#process">Процесс</a></li>
+                    <li><a href="#testimonials">Отзывы</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Контакты</h4>
+                <ul>
+                    <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+                    <li><a href="mailto:hello@aroma.coffee">hello@aroma.coffee</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Кофейня "Аромат". Все права защищены.</p>
+            <nav class="social-links" aria-label="Социальные сети">
+                <a href="#" aria-label="Наш Instagram">Instagram</a>
+                <a href="#" aria-label="Наш Facebook">Facebook</a>
+                <a href="#" aria-label="Наша страница ВКонтакте">VK</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
