@@ -1095,12 +1095,8 @@ footer {
     }
 
     .hero {
-        padding-top: 120px;
-    }
-
-    .hero {
         min-height: 100vh;
-        padding: 140px 1.5rem 100px;
+        padding: 100px 1.5rem 80px;
     }
 
     .hero-title {
@@ -1286,7 +1282,7 @@ footer {
     }
 
     .stats-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .stat-number {
